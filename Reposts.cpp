@@ -42,6 +42,8 @@ int main () {
     REP (i, 0, n) {
         string s, f, l;
         cin >> f >> s >> l;
+        transform (f.begin(), f.end (), f.begin (), ::tolower);
+        transform (l.begin(), l.end (), l.begin (), ::tolower);
         
         if (l == "polycarp") {
             m[l] = 1;
