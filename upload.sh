@@ -1,7 +1,6 @@
 #!/bin/bash
 
-read name
-git add $name
-git commit -m "$name"
+git add .
+git commit -m "EMPTY"
 git push origin master 
 
